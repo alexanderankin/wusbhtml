@@ -1,0 +1,14 @@
+cp /home/toor/station/modules/cck/content.css /resources/wusbhtml/css
+cp /home/toor/station/modules/date/date.css /resources/wusbhtml/css
+cp /home/toor/station/modules/event/event.css /resources/wusbhtml/css
+cp /home/toor/station/modules/logintoboggan/logintoboggan.css /resources/wusbhtml/css
+cp /home/toor/station/modules/node/node.css /resources/wusbhtml/css
+cp /home/toor/station/modules/poll/poll.css /resources/wusbhtml/css
+cp /home/toor/station/modules/simplenews/simplenews.css /resources/wusbhtml/css
+cp /home/toor/station/modules/system/defaults.css /resources/wusbhtml/css
+cp /home/toor/station/modules/system/system.css /resources/wusbhtml/css
+cp /home/toor/station/modules/user/user.css /resources/wusbhtml/css
+cp /home/toor/station/modules/calendar/calendar.css /resources/wusbhtml/css
+cp /home/toor/station/modules/cck/fieldgroup.css /resources/wusbhtml/css
+cp /home/toor/station/modules/devel/devel.css /resources/wusbhtml/css
+cp /home/toor/station/themes/wusb/style.css /resources/wusbhtml/css
