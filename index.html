@@ -93,6 +93,8 @@
 	</div>
 	<table class="table-main">
 		<tr class="table-main">
+
+		<!-- sidebar table data 'td' -->
 		<td id="sidebar-left">
 			<!-- radio stream object here -->
 			<div id="block-block-6 radio-streamer" class="clear-block block block-block"> 
@@ -134,200 +136,223 @@
 			<!-- login in side bar -->
 			<div id="block-user-0" class="clear-block block block-user">
 			<h2>User login</h2>
-			<div class="content">
-			<form action="/~wusb/frontpage?destination=frontpage"	method="post" id="user-login-form">
-				<div><div id="toboggan-container" class="toboggan-container"><div class="toboggan-login-link"><a href="/~wusb/user/login" onclick="toggleboggan();this.blur();return false;">Login/Register</a></div><div id="toboggan-login" class="user-login-block"><div class="form-item">
-				<label for="edit-name">Username:</label>
-				<input type="text" maxlength="60" name="name" id="edit-name"	size="15" value="" tabindex="1" class="form-text required" />
-				</div>
-				<div class="form-item">
-				<label for="edit-pass">Password:</label>
-				<input type="password" name="pass" id="edit-pass"	maxlength="60"	size="15"	tabindex="2" class="form-text required" />
-				</div>
-				<input type="submit" name="op" id="edit-submit" value="Log in"	tabindex="3" class="form-submit" />
-				<div class="item-list">
-					<ul><li><a href="/~wusb/user/register" title="Create a new user account.">Create new account</a></li><li><a href="/~wusb/user/password" title="Request new password via e-mail.">Request new password</a></li>
-					</ul>
-				</div>
-				<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"	/>
-				</div></div>
-				</div>
-			</form>
-			</div>
-		</div>
-		</td>
-	<td id="right_main">
-		<div id="under_head">
+				<div class="content">
+				<form action="/~wusb/frontpage?destination=frontpage"	method="post" id="user-login-form"><div>
+					<div id="toboggan-container" class="toboggan-container"><div class="toboggan-login-link"><a href="/~wusb/user/login" onclick="toggleboggan();this.blur();return false;">Login/Register</a></div>
+					<div id="toboggan-login" class="user-login-block">
+						<div class="form-item">
+						<label for="edit-name">Username:</label>
+						<input type="text" maxlength="60" name="name" id="edit-name"	size="15" value="" tabindex="1" class="form-text required" />
+						</div>
+
+						<div class="form-item">
+						<label for="edit-pass">Password:</label>
+						<input type="password" name="pass" id="edit-pass"	maxlength="60"	size="15"	tabindex="2" class="form-text required" />
+						</div>
+
+						<input type="submit" name="op" id="edit-submit" value="Log in"	tabindex="3" class="form-submit" />
+						
+						<div class="item-list">
+							<ul><li><a href="/~wusb/user/register" title="Create a new user account.">Create new account</a></li><li><a href="/~wusb/user/password" title="Request new password via e-mail.">Request new password</a></li>
+							</ul>
+						</div>
+						<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"	/>
 					</div>
+					</div>
+				</div>
+				</form>
+				</div>
+			</div>
+		</td>
+
+		<!-- main site table data 'td' -->
+		<td id="right_main">
+			<div id="under_head"></div>
 		
+			<!-- this is html spagetti code
+			might be necessary for the drupal themes css
+			or just might be coded this way in drup -->
 			<div id="content">
+			<div class='view view-frontpage'>
 				
+				<!-- node container -->
+				<div class='view-content view-content-frontpage'>
+
+					<!-- node is / nodes are front page posts -->
+					<!-- new node -->
+					<div id="node-31003" class="node sticky">
+						<h2 class="teaser"><a href="/~wusb/node/31003" title="Tonight on the Sounds of Film">Tonight on the Sounds of Film</a></h2>
+
+							<span class="submitted">By <a href="/~wusb/user/45">Angelo</a> on Thu, 02/19/2015 - 4:38pm</span>
+						<div class="content">
+						
+						<p>
+						<span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;"><br /></span><br />
+							<a href="http://3.bp.blogspot.com/-NQBPv1keR8s/VOZXptsTuvI/AAAAAAAAAxI/21B8NyfG7Xg/s1600/birdman.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-NQBPv1keR8s/VOZXptsTuvI/AAAAAAAAAxI/21B8NyfG7Xg/s1600/birdman.jpg" height="171" width="320" /></a>
+							<span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;"><br /></span><br />
+						
+							<span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">Tune into Tom Needham's&nbsp;</span>
+							<i style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">The Sounds of Film</i><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">&nbsp;on WUSB&nbsp;</span><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">&nbsp;for an exclusive discussion with the film&nbsp;</span><i style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">St. Vincent's</i><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">&nbsp;director&nbsp;</span><span style="background-color: white; font-family: HelveticaNeue; font-size: 14px;">Theodore Melfie and actor&nbsp;</span><span style="background-color: white; font-family: HelveticaNeue; font-size: 14px;">Jaeden Lieberher. The movie stars Bill Murray, Naomi Watts and Melissa McCarthy.&nbsp; In addition, the show will feature an interview with Queens' Antonio Sanchez, who composed the unique percussion score for the Oscar-nominated film<i><b>&nbsp;</b>Birdman<b>.</b></i>
+						</span>
+
+						</p>
+						</div>
+
+						<div class="clear-block clear">
+						<div class="meta">
+						</div>
+
+						<div class="links"><ul class="links inline"><li class="first last node_read_more"><a href="/~wusb/node/31003" title="Read the rest of this posting." class="node_read_more">Read more</a></li>
+						</ul></div>
+						</div>
+					</div>
+
+					<!-- new node -->
+					<div id="node-30899" class="node sticky">
+						<h2 class="teaser"><a href="/~wusb/node/30899" title="Falco Brothers on WUSB">Falco Brothers on WUSB</a></h2>
+
+							<span class="submitted">By <a href="/~wusb/user/2128">Funk Master Fuhlexa</a> on Tue, 02/10/2015 - 7:34pm</span>
+						<div class="content">
+							<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-wfF_X6KvglA/VNqjUJ-m8OI/AAAAAAAAASM/Iq2L0oxPUmw/s1600/10940571_10153497181382656_6485526415785691536_n.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-wfF_X6KvglA/VNqjUJ-m8OI/AAAAAAAAASM/Iq2L0oxPUmw/s320/10940571_10153497181382656_6485526415785691536_n.jpg" /></a></div>
+							<p> Tonight-beginning at 8.. "A Taste Of Long Island"<br />The Falco Brothers, Andy, Tom and Patrick, AND Dave March and Krista Preddice of Miles to Dayton, will be in the WUSB studio! Sweet Treat before their show at 89 North Music Venue, on Valentine's Day (night)!!<br />Listen on the dial at 90.1fm or online at <a href="http://www.wusb.fm" title="www.wusb.fm">www.wusb.fm</a>.</p>
+						</div>
+
+						<div class="clear-block clear">
+							<div class="meta"></div>
+						</div>
+					</div>
+
+					<!-- new node -->
+					<div id="node-30893" class="node sticky">
+						<h2 class="teaser"><a href="/~wusb/node/30893" title="Winter 2015 Reggae Marathon on WUSB">Winter 2015 Reggae Marathon on WUSB</a></h2>
+
+						<span class="submitted">By <a href="/~wusb/user/45">Angelo</a> on Thu, 02/05/2015 - 9:01pm</span>
+						
+						<div class="content">
+							<div class="separator" style="clear: both; text-align: center;">
+							<a href="https://scontent-b-ord.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10530728_10152551249939808_8914194695682426059_n.png?oh=5f34037e21948932c26148a76c1bbb22&amp;oe=5555C4F8" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="176" src="https://scontent-b-ord.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10530728_10152551249939808_8914194695682426059_n.png?oh=5f34037e21948932c26148a76c1bbb22&amp;oe=5555C4F8" width="400" /></a></div>
+							<p>Time to celebrate the late Bob Marley's 70th birthday with three	days of reggae music on WUSB! &nbsp;The Reggae Marathon will feature The No Sound Test crew, DJ Lister, DJ Tony Stir and a whole slew of guests and special hosts as they play for you everything and anything Reggae for 3 whole days.</p>
+							<p>Tune in <strong>Thursday &nbsp;February 5 at 10pm</strong> to "No Sound Test" for the start of the marathon and stay put (or dance your ass off) until <strong>Sunday February 8 11:59PM</strong>. Only on WUSB, 90.1FM on your radio or online at <a href="http://wusb.fm/listen">http://wusb.fm/listen</a></p>
+							<p>Note: WUSB Sports will be broadcasting Vermont at Stony Brook men's basketball game on Saturday, coverage begins at 6:45 pm. <a href="http://www.wusb.fm/sports" title="www.wusb.fm/sports">www.wusb.fm/sports</a> for more information.<br />
+							</p>
+							<div class="separator" style="clear: both; text-align: center;">
+							</div>
+							<p></p>
+						</div>
+
+						<!-- this whole thing is a read more link -->
+						<div class="clear-block clear">
+							<div class="meta"></div>
+							<div class="links">
+								<ul class="links inline"><li class="first last node_read_more"><a href="/~wusb/node/30893" title="Read the rest of this posting." class="node_read_more">Read more</a></li></ul>
+							</div>
+						</div>
+					</div>
 					
-								 			<div class='view view-frontpage'><div class='view-content view-content-frontpage'>
-<div id="node-31003" class="node sticky">
+					<!-- new node -->
+					<div id="node-30878" class="node sticky">
 
 
-	<h2 class="teaser"><a href="/~wusb/node/31003" title="Tonight on the Sounds of Film">Tonight on the Sounds of Film</a></h2>
+						<h2 class="teaser"><a href="/~wusb/node/30878" title="Antonio Fargas on Sounds of Film TONIGHT Feb 5. 2015">Antonio Fargas on Sounds of Film TONIGHT Feb 5. 2015</a></h2>
 
-		<span class="submitted">By <a href="/~wusb/user/45">Angelo</a> on Thu, 02/19/2015 - 4:38pm</span>
-	
-	<div class="content">
-	<p><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;"><br /></span><br />
-<a href="http://3.bp.blogspot.com/-NQBPv1keR8s/VOZXptsTuvI/AAAAAAAAAxI/21B8NyfG7Xg/s1600/birdman.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-NQBPv1keR8s/VOZXptsTuvI/AAAAAAAAAxI/21B8NyfG7Xg/s1600/birdman.jpg" height="171" width="320" /></a><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;"><br /></span><br />
-<span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">Tune into Tom Needham's&nbsp;</span><i style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">The Sounds of Film</i><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">&nbsp;on WUSB&nbsp;</span><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">&nbsp;for an exclusive discussion with the film&nbsp;</span><i style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">St. Vincent's</i><span style="background-color: white; font-family: 'times new roman', 'new york', times, serif; font-size: 14px;">&nbsp;director&nbsp;</span><span style="background-color: white; font-family: HelveticaNeue; font-size: 14px;">Theodore Melfie and actor&nbsp;</span><span style="background-color: white; font-family: HelveticaNeue; font-size: 14px;">Jaeden Lieberher. The movie stars Bill Murray, Naomi Watts and Melissa McCarthy.&nbsp; In addition, the show will feature an interview with Queens' Antonio Sanchez, who composed the unique percussion score for the Oscar-nominated film<i><b>&nbsp;</b>Birdman<b>.</b></i></span></p>
-	</div>
+							<span class="submitted">By <a href="/~wusb/user/45">Angelo</a> on Thu, 02/05/2015 - 9:23am</span>
+						
+						<div class="content">
+						<p><a href="http://3.bp.blogspot.com/-XPUeQj7FJcE/VNN8o_ojwVI/AAAAAAAAAww/gOymWMdWuNU/s1600/Fargas.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-XPUeQj7FJcE/VNN8o_ojwVI/AAAAAAAAAww/gOymWMdWuNU/s1600/Fargas.jpg" /></a>Tune into Tom Needham's The Sounds of Film on Thursday at 6 P.M. to hear an exclusive interview with Antonio Fargas, who is best known for his role as Huggy Bear on the television show Starsky &amp; Hutch.	They will be discussing his long film career including roles in Putney Swope, Across 110th Street, Foxy Brown, Shaft and Car Wash.</p>
+						</div>
 
-	<div class="clear-block clear">
-	<div class="meta">
-		</div>
+						<div class="clear-block clear">
+						<div class="meta">
+							</div>
 
-			<div class="links"><ul class="links inline"><li class="first last node_read_more"><a href="/~wusb/node/31003" title="Read the rest of this posting." class="node_read_more">Read more</a></li>
-</ul></div>
-		</div>
+							</div>
+					</div>
+					
+					<!-- new node -->
+					<div id="node-30782" class="node sticky">
+						<h2 class="teaser"><a href="/~wusb/node/30782" title="This Week on Dialogos Radio: Greek Election Coverage and an Interview with Greg Palast!">This Week on Dialogos Radio: Greek Election Coverage and an Interview with Greg Palast!</a></h2>
 
-</div>
-<div id="node-30899" class="node sticky">
+						<span class="submitted">By <a href="/~wusb/user/2128">Funk Master Fuhlexa</a> on Wed, 01/28/2015 - 10:48pm</span>
+						
+						<div class="content"><p>This week on Dialogos Radio, tune in for a special broadcast which will feature coverage and analysis of this past Sunday's historic Greek elections. The Dialogos Interview Series will feature an interview with investigative journalist (BBC, The Guardian) and New York Times bestselling author Greg Palast, who will share with us his insights regarding the winner of the elections, SYRIZA, including Palast's thoughts on SYRIZA's economic platform and its strong position in favor of keeping Greece within the Eurozone. Palast will also discuss the role of Goldman Sachs in helping to perpetuate the Greek economic crisis, and will also discuss the proposed Transatlantic Trade and Investment Partnership (TTIP). This interview will be followed up by our own analysis of the Greek electoral results, and the campaign promises Syriza has made, as well as its departure from some of its previously radical positions.</p>
+						<p>Tune in to hear this special broadcast this Thursday at 1:30 pm on WUSB and wusb.fm!</p>
+						<div class="separator" style="clear: both; text-align: center;">
+						<a href="http://3.bp.blogspot.com/-8RzPxli_F34/VMms5Yc6BXI/AAAAAAAAARw/3DBkd41hSR0/s1600/palast2.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-8RzPxli_F34/VMms5Yc6BXI/AAAAAAAAARw/3DBkd41hSR0/s320/palast2.jpeg" /></a></div>
+						</div>
 
+						<div class="clear-block clear">
+							<div class="meta">
+								<div class="terms">
+									<ul class="links inline"><li class="first last taxonomy_term_3"><a href="/~wusb/taxonomy/term/3" rel="tag" title="" class="taxonomy_term_3">Announcements</a></li>
+									</ul>
+								</div>
+							</div>
 
-	<h2 class="teaser"><a href="/~wusb/node/30899" title="Falco Brothers on WUSB">Falco Brothers on WUSB</a></h2>
+							<div class="links"><ul class="links inline"><li class="first last node_read_more"><a href="/~wusb/node/30782" title="Read the rest of this posting." class="node_read_more">Read more</a></li></ul></div>
+						</div>
+					</div>
 
-		<span class="submitted">By <a href="/~wusb/user/2128">Funk Master Fuhlexa</a> on Tue, 02/10/2015 - 7:34pm</span>
-	
-	<div class="content">
-	<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-wfF_X6KvglA/VNqjUJ-m8OI/AAAAAAAAASM/Iq2L0oxPUmw/s1600/10940571_10153497181382656_6485526415785691536_n.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-wfF_X6KvglA/VNqjUJ-m8OI/AAAAAAAAASM/Iq2L0oxPUmw/s320/10940571_10153497181382656_6485526415785691536_n.jpg" /></a></div>
-<p> Tonight-beginning at 8.. "A Taste Of Long Island"<br />
-The Falco Brothers, Andy, Tom and Patrick, AND Dave March and Krista Preddice of Miles to Dayton, will be in the WUSB studio! Sweet Treat before their show at 89 North Music Venue, on Valentine's Day (night)!!<br />
-Listen on the dial at 90.1fm or online at <a href="http://www.wusb.fm" title="www.wusb.fm">www.wusb.fm</a>.</p>
-	</div>
+				</div>
 
-	<div class="clear-block clear">
-	<div class="meta">
-		</div>
+				<div class='view-footer view-footer-frontpage'><p><a href="/user/33" title="View user profile." class="active"></a></p></div>
+				
+				<!-- this nice big onliner is navigating to old pages -->
+				<div class="pager"><span class="pager-list"><strong class="pager-current">1</strong><a href="/~wusb/frontpage?page=1" class="pager-next active" title="Go to page 2">2</a><a href="/~wusb/frontpage?page=2" class="pager-next active" title="Go to page 3">3</a><a href="/~wusb/frontpage?page=3" class="pager-next active" title="Go to page 4">4</a><a href="/~wusb/frontpage?page=4" class="pager-next active" title="Go to page 5">5</a><a href="/~wusb/frontpage?page=5" class="pager-next active" title="Go to page 6">6</a><a href="/~wusb/frontpage?page=6" class="pager-next active" title="Go to page 7">7</a><a href="/~wusb/frontpage?page=7" class="pager-next active" title="Go to page 8">8</a><a href="/~wusb/frontpage?page=8" class="pager-next active" title="Go to page 9">9</a><span class="pager-ellipsis">…</span></span><a href="/~wusb/frontpage?page=1" class="pager-next active" title="Go to next page">next ›</a><a href="/~wusb/frontpage?page=14" class="pager-last active" title="Go to last page">last »</a></div>
 
-		</div>
+			</div>
 
-</div>
-<div id="node-30893" class="node sticky">
+			<div id="block-views-station_schedule_playlists" class="clear-block block block-views">
 
+				<h2>Recent playlists</h2>
 
-	<h2 class="teaser"><a href="/~wusb/node/30893" title="Winter 2015 Reggae Marathon on WUSB">Winter 2015 Reggae Marathon on WUSB</a></h2>
+				<div class="content">
+				<div class='view view-station-schedule-playlists'><div class='view-content view-content-station-schedule-playlists'><div class="item-list">
 
-		<span class="submitted">By <a href="/~wusb/user/45">Angelo</a> on Thu, 02/05/2015 - 9:01pm</span>
-	
-	<div class="content">
-	<div class="separator" style="clear: both; text-align: center;">
-<a href="https://scontent-b-ord.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10530728_10152551249939808_8914194695682426059_n.png?oh=5f34037e21948932c26148a76c1bbb22&amp;oe=5555C4F8" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="176" src="https://scontent-b-ord.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10530728_10152551249939808_8914194695682426059_n.png?oh=5f34037e21948932c26148a76c1bbb22&amp;oe=5555C4F8" width="400" /></a></div>
-<p>Time to celebrate the late Bob Marley's 70th birthday with three	days of reggae music on WUSB! &nbsp;The Reggae Marathon will feature The No Sound Test crew, DJ Lister, DJ Tony Stir and a whole slew of guests and special hosts as they play for you everything and anything Reggae for 3 whole days.</p>
-<p>Tune in <strong>Thursday &nbsp;February 5 at 10pm</strong> to "No Sound Test" for the start of the marathon and stay put (or dance your ass off) until <strong>Sunday February 8 11:59PM</strong>. Only on WUSB, 90.1FM on your radio or online at <a href="http://wusb.fm/listen">http://wusb.fm/listen</a></p>
-<p>Note: WUSB Sports will be broadcasting Vermont at Stony Brook men's basketball game on Saturday, coverage begins at 6:45 pm. <a href="http://www.wusb.fm/sports" title="www.wusb.fm/sports">www.wusb.fm/sports</a> for more information.<br />
-</p>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<p></p>
-	</div>
+				<ul>
+				<li>
+					<div class="view-label view-field-title"></div>
+					<div class="view-field view-data-title"><a href="/~wusb/node/31079">Everything Is Broken playlist for 02/24/2015</a></div>
+				</li>
+				<li>
+					<div class="view-label view-field-title"></div>
+					<div class="view-field view-data-title"><a href="/~wusb/node/31091">Wake and Bake playlist for 02/24/2015</a></div>
+				</li>
+				<li>
+					<div class="view-label view-field-title"></div>
+					<div class="view-field view-data-title"><a href="/~wusb/node/31092">Jim Dexter playlist for 02/24/2015</a></div>
+				</li>
+				<li>
+					<div class="view-label view-field-title"></div>
+					<div class="view-field view-data-title"><a href="/~wusb/node/31094">Finn&#039;s Revolution playlist for 02/24/2015</a></div>
+				</li>
+				<li>
+					<div class="view-label view-field-title"></div>
+					<div class="view-field view-data-title"><a href="/~wusb/node/31045">Purple Starlight playlist for 02/23/2015</a></div>
+				</li>
+				<li>
+					<div class="view-label view-field-title"></div>
+					<div class="view-field view-data-title"><a href="/~wusb/node/31046">A Woman&#039;s Perspective On Politics playlist for 02/23/2015</a></div>
+				</li>
+				</ul>
+				</div></div>
+				<div class='more-link'><a href="/~wusb/station/playlists">more</a></div></div>
+				</div>
+			</div>
 
-	<div class="clear-block clear">
-	<div class="meta">
-		</div>
-
-			<div class="links"><ul class="links inline"><li class="first last node_read_more"><a href="/~wusb/node/30893" title="Read the rest of this posting." class="node_read_more">Read more</a></li>
-</ul></div>
-		</div>
-
-</div>
-<div id="node-30878" class="node sticky">
-
-
-	<h2 class="teaser"><a href="/~wusb/node/30878" title="Antonio Fargas on Sounds of Film TONIGHT Feb 5. 2015">Antonio Fargas on Sounds of Film TONIGHT Feb 5. 2015</a></h2>
-
-		<span class="submitted">By <a href="/~wusb/user/45">Angelo</a> on Thu, 02/05/2015 - 9:23am</span>
-	
-	<div class="content">
-	<p><a href="http://3.bp.blogspot.com/-XPUeQj7FJcE/VNN8o_ojwVI/AAAAAAAAAww/gOymWMdWuNU/s1600/Fargas.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-XPUeQj7FJcE/VNN8o_ojwVI/AAAAAAAAAww/gOymWMdWuNU/s1600/Fargas.jpg" /></a>Tune into Tom Needham's The Sounds of Film on Thursday at 6 P.M. to hear an exclusive interview with Antonio Fargas, who is best known for his role as Huggy Bear on the television show Starsky &amp; Hutch.	They will be discussing his long film career including roles in Putney Swope, Across 110th Street, Foxy Brown, Shaft and Car Wash.</p>
-	</div>
-
-	<div class="clear-block clear">
-	<div class="meta">
-		</div>
-
-		</div>
-
-</div>
-<div id="node-30782" class="node sticky">
-
-
-	<h2 class="teaser"><a href="/~wusb/node/30782" title="This Week on Dialogos Radio: Greek Election Coverage and an Interview with Greg Palast!">This Week on Dialogos Radio: Greek Election Coverage and an Interview with Greg Palast!</a></h2>
-
-		<span class="submitted">By <a href="/~wusb/user/2128">Funk Master Fuhlexa</a> on Wed, 01/28/2015 - 10:48pm</span>
-	
-	<div class="content">
-	<p>This week on Dialogos Radio, tune in for a special broadcast which will feature coverage and analysis of this past Sunday's historic Greek elections. The Dialogos Interview Series will feature an interview with investigative journalist (BBC, The Guardian) and New York Times bestselling author Greg Palast, who will share with us his insights regarding the winner of the elections, SYRIZA, including Palast's thoughts on SYRIZA's economic platform and its strong position in favor of keeping Greece within the Eurozone. Palast will also discuss the role of Goldman Sachs in helping to perpetuate the Greek economic crisis, and will also discuss the proposed Transatlantic Trade and Investment Partnership (TTIP). This interview will be followed up by our own analysis of the Greek electoral results, and the campaign promises Syriza has made, as well as its departure from some of its previously radical positions.</p>
-<p>Tune in to hear this special broadcast this Thursday at 1:30 pm on WUSB and wusb.fm!</p>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="http://3.bp.blogspot.com/-8RzPxli_F34/VMms5Yc6BXI/AAAAAAAAARw/3DBkd41hSR0/s1600/palast2.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-8RzPxli_F34/VMms5Yc6BXI/AAAAAAAAARw/3DBkd41hSR0/s320/palast2.jpeg" /></a></div>
-	</div>
-
-	<div class="clear-block clear">
-	<div class="meta">
-			<div class="terms"><ul class="links inline"><li class="first last taxonomy_term_3"><a href="/~wusb/taxonomy/term/3" rel="tag" title="" class="taxonomy_term_3">Announcements</a></li>
-</ul></div>
-		</div>
-
-			<div class="links"><ul class="links inline"><li class="first last node_read_more"><a href="/~wusb/node/30782" title="Read the rest of this posting." class="node_read_more">Read more</a></li>
-</ul></div>
-		</div>
-
-</div></div><div class='view-footer view-footer-frontpage'><p><a href="/user/33" title="View user profile." class="active"></a></p>
-</div>
-<div class="pager"><span class="pager-list"><strong class="pager-current">1</strong><a href="/~wusb/frontpage?page=1" class="pager-next active" title="Go to page 2">2</a><a href="/~wusb/frontpage?page=2" class="pager-next active" title="Go to page 3">3</a><a href="/~wusb/frontpage?page=3" class="pager-next active" title="Go to page 4">4</a><a href="/~wusb/frontpage?page=4" class="pager-next active" title="Go to page 5">5</a><a href="/~wusb/frontpage?page=5" class="pager-next active" title="Go to page 6">6</a><a href="/~wusb/frontpage?page=6" class="pager-next active" title="Go to page 7">7</a><a href="/~wusb/frontpage?page=7" class="pager-next active" title="Go to page 8">8</a><a href="/~wusb/frontpage?page=8" class="pager-next active" title="Go to page 9">9</a><span class="pager-ellipsis">…</span></span><a href="/~wusb/frontpage?page=1" class="pager-next active" title="Go to next page">next ›</a><a href="/~wusb/frontpage?page=14" class="pager-last active" title="Go to last page">last »</a></div></div>
-<div id="block-views-station_schedule_playlists" class="clear-block block block-views">
-
-	<h2>Recent playlists</h2>
-
-	<div class="content"><div class='view view-station-schedule-playlists'><div class='view-content view-content-station-schedule-playlists'><div class="item-list"><ul><li><div class="view-label view-field-title">
-	</div>
-<div class="view-field view-data-title">
-	<a href="/~wusb/node/31079">Everything Is Broken playlist for 02/24/2015</a></div>
-
-</li><li><div class="view-label view-field-title">
-	</div>
-<div class="view-field view-data-title">
-	<a href="/~wusb/node/31091">Wake and Bake playlist for 02/24/2015</a></div>
-
-</li><li><div class="view-label view-field-title">
-	</div>
-<div class="view-field view-data-title">
-	<a href="/~wusb/node/31092">Jim Dexter playlist for 02/24/2015</a></div>
-
-</li><li><div class="view-label view-field-title">
-	</div>
-<div class="view-field view-data-title">
-	<a href="/~wusb/node/31094">Finn&#039;s Revolution playlist for 02/24/2015</a></div>
-
-</li><li><div class="view-label view-field-title">
-	</div>
-<div class="view-field view-data-title">
-	<a href="/~wusb/node/31045">Purple Starlight playlist for 02/23/2015</a></div>
-
-</li><li><div class="view-label view-field-title">
-	</div>
-<div class="view-field view-data-title">
-	<a href="/~wusb/node/31046">A Woman&#039;s Perspective On Politics playlist for 02/23/2015</a></div>
-
-</li></ul></div></div><div class='more-link'><a href="/~wusb/station/playlists">more</a></div></div>
-</div>
-</div>
+			<!-- content ends here -->
 			</div>
 
 	</td>
 	</tr>
 	</table>
-		<div id="footer">
+
+	<div id="footer">
 	&copy; WUSB Stony Brook
 	</div>
 
 </div>
 
+<!-- god only knows why this js is not in doc ready -->
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -337,5 +362,7 @@ var pageTracker = _gat._getTracker("UA-808585-1");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
+
+
 </body>
 </html>
